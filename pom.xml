@@ -111,6 +111,13 @@
         <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 
              <!--updated version from to 4. to 5.-->
+
+             
+ <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>4.1.4</version>
+        </dependency>
        <configuration>
   <runtime>
     <generatePublisherEvidence enabled="false"/> 
@@ -123,11 +130,6 @@
 
 
 
- <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>4.1.4</version>
-        </dependency>
 
 
 
