@@ -111,7 +111,24 @@
         <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 
              <!--updated version from to 4. to 5.-->
-       
+       <configuration>
+  <runtime>
+    <generatePublisherEvidence enabled="false"/> 
+  </runtime>
+  <startup>
+    <supportedRuntime version="v4.0" />
+    <supportedRuntime version="v2.0.50727" />
+  </startup>
+</configuration>
+
+
+
+ <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.0.7</version>
+        </dependency>
+
 
 
     </dependencies>
